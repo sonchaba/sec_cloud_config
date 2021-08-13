@@ -4,3 +4,8 @@ eureka:
     fetchRegistry: true
     serviceUrl:
      defaultZone: http://eureka-0.eureka:8671/eureka/, http://eureka-0.eureka:8672/eureka/
+     
+feignws:
+  setup-service:
+    url: SETUP-SERVICE
+    base-path: /setup
